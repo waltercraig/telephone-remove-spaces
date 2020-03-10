@@ -10,7 +10,7 @@ PHP, ACF
 <a href="tel:<?php echo $telephone_nos; ?>"><?php echo $telephone; ?></a>
 ```
 
-Javascript
+Or Javascript
 ```js
 const telephoneRemoveSpaces = () => {
   const telephoneNumber = document.getElementsByClassName('tel-no');
