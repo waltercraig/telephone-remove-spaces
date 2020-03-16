@@ -14,8 +14,6 @@ Or Javascript
 ```js
 const telephoneRemoveSpaces = () => {
   const telephoneNumber = document.getElementsByClassName('tel-no');
-  
-  console.log(telephoneNumber);
 
   for(let x = 0; x < telephoneNumber.length; x++) {
     telephoneNumber[x].href = telephoneNumber[x].href.replace(/\s/g, '');
